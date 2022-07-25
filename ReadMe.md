@@ -4,15 +4,15 @@
 
 Help:
 
-> python jsons_to_df_pickle_multy_v3.py --help
+> python jsons_to_df_pickle_multy.py --help
 
-usage: `jsons_to_df_pickle_multy_v3.py [-h] -i INPUT_FOLDER [-o OUTPUT_FILE] [-e N_EXECUTORS]`
+usage: `jsons_to_df_pickle_multy.py [-h] -i INPUT_FOLDER [-o OUTPUT_FILE] [-e N_EXECUTORS]`
                         
 __Example:__
 
-Parse json files from folder `/data/input/`, save to file `output`, run `4` subprocesses
+Parse json files from folder `/data/input/`, save to file `output.pickle`, run `4` subprocesses
 
-> python jsons_to_df_pickle_multy.py -i /data/input/ -o output -e 4
+> python jsons_to_df_pickle_multy.py -i /data/input/ -o output.pickle -e 4
 
 ## Run as function:
 
