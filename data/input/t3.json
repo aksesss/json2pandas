@@ -1,0 +1,9 @@
+{"menu": {
+  "id": "-9999",
+  "value": "Test",
+  "popup": {
+    "menuitem": [
+      {"value": "Some", "onclick": "nothong"}
+    ]
+  }
+}}

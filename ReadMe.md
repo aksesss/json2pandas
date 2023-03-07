@@ -1,5 +1,8 @@
 # Json to pandas
 
+Преобразует множество json файлов в единый pandas.DataFrame используя мультипроцессинг в разрезе файлов. В качестве
+результата работы скрипта выступает pickle-файл с pandas.DataFrame
+
 ## Run as script
 
 Help:
@@ -16,6 +19,6 @@ Parse json files from folder `/data/input/`, save to file `output.pickle`, run `
 
 ## Run as function:
 
-> from jsons_to_df_pickle_multy import main
+> from src.main import jsons2pandas
 > 
-> df = main('/data/input/', 4)
+> df = jsons2pandas('/data/input/', 4)
